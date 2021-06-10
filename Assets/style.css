@@ -1,3 +1,11 @@
-.bg-primary {
-    display: grid;
+
+
+body {
+    width: 100%;
+}
+
+.container {
+    padding: 0px;
+    margin-right: 10px;
+    margin-left:0px;
 }
