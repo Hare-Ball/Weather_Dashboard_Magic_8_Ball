@@ -4,8 +4,29 @@ body {
     width: 100%;
 }
 
-.container {
-    padding: 0px;
-    margin-right: 10px;
-    margin-left:0px;
+header {
+   width:100%;
+}
+
+h1 {
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    background-color: navy;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.row {
+    width:100%;
+}
+
+#searchBar {
+    padding: 2%;
+    border-style: dotted;
+}
+
+#forecastArea {
+    padding:2%;
+    border-style: dotted;
 }
