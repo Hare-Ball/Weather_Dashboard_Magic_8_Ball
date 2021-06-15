@@ -9,28 +9,37 @@
     <link rel="stylesheet" href="./Assets/style.css" />
 </head>
 <body>
+    <!-- Header-->
     <header>
         <h1>Weather Dashboard</h1>
     </header>
+    <!-- Search Area-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 offset-md-1" id=searchBar>
+            <div class="col-lg-3 offset-md-1">
                 <div class="input-group">
-                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                      aria-describedby="search-addon" />
-                    <button type="button" class="btn btn-outline-primary">search</button>
-                  </div>
+                    
+                    <form id="search-form">
+                        <label for="city-search">City Search</label>
+                        <input type="text" id= "search-input" class="form-input" name="city-search" placeholder="Search a City" />
+                        <button id="searchBtn" class="btn btn-primary" type="button"><i class="far fa-search"></i>Search</button>
+                    </form>
+                </div>
             </div>
-          
-            <div class="col-lg-7" id=forecastArea>
-            <section>Forecast</section>
-            <section>5 Day Forecast</section>
-            </div>
+        </form>
+            <!-- Forecast Area-->
+            <div class="col-lg-6 offset-md-1" id=forecastArea></div>
+        </div>
+        <!--Five Day Forecast-->
+        <div class="row">
+            <div class="col-lg-10 offset-md-1" id=fiveDayForecastArea>
+                <section>5 Day Forecast</section>
+                </div>
         </div>
     </div>
      
-
-    <script src="./Scripts/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./Scripts/script.js"></script>
+    
 </body>
 </html>
