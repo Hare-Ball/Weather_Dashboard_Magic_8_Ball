@@ -16,11 +16,11 @@
     <!-- Search Area-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 offset-md-1">
+            <div class="col-lg-3 offset-sm-1">
                 <div class="input-group">
                     
                     <form id="search-form">
-                        <label for="city-search">City Search</label>
+                        <label for="city-search"id="label">City Search</label>
                         <input type="text" id= "search-input" class="form-input" name="city-search" placeholder="Search a City" />
                         <button id="searchBtn" class="btn btn-primary" type="button"><i class="far fa-search"></i>Search</button>
                     </form>
@@ -28,12 +28,16 @@
             </div>
         </form>
             <!-- Forecast Area-->
-            <div class="col-lg-6 offset-md-1" id=forecastArea></div>
+            <div class="col-lg-6" id=forecastArea></div>
         </div>
         <!--Five Day Forecast-->
         <div class="row">
             <div class="col-lg-10 offset-md-1" id=fiveDayForecastArea>
-                <section>5 Day Forecast</section>
+                <div class="col-md-2" id=day1></div>
+                <div class="col-md-2" id=day2></div>
+                <div class="col-md-2" id=day3></div>
+                <div class="col-md-2" id=day4></div>
+                <div class="col-md-2" id=day5></div>
                 </div>
         </div>
     </div>

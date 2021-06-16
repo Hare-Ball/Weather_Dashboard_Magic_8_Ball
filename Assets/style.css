@@ -17,3 +17,27 @@ header {
     padding: 2%;
 }
 
+.row {
+    padding: 5px;
+}
+
+.btn, label, btn {
+    padding:2px;
+}
+#fiveDayForecastArea {
+    position: relative;
+    display: flex;
+    flex-direction:row;
+}
+
+#day1, #day2, #day3, #day4, #day5 {
+    background-color: #0d6efd;
+    padding:5px;
+    margin:5px;
+    border-radius: 8px;
+    color: oldlace;
+}
+
+#forecastArea {
+    border-style: solid;
+}
